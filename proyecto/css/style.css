@@ -1,0 +1,86 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+#pagina{
+  width: 950px;
+  margin: auto;
+  border: 1px solid grey;
+  border-radius: 0px 0px 22px 22px;
+}
+body{
+  background-color:rgb(28, 13, 19);
+  width: 100%;
+}
+
+header{
+  background: url("../img/cabecera.jpg") no-repeat;
+  background-size: cover;
+  height: 300px;
+}
+
+h1{
+  color: rgb(143, 15, 43);
+  text-align: center;
+  padding-top: 3%;
+  margin: auto;
+  margin-left: 20%;
+  font-size: 50px;
+}
+
+.clear{
+  clear: both;
+}
+ul{
+  clear: both;
+  float: left;
+  width: 100%;
+  list-style: none;
+  display: flex;
+}
+
+ul a{
+  float: left;
+  width: 100%;
+  border: 1px solid black;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  height: 35px;
+  padding-top: 15px;
+  background: linear-gradient(rgb(105, 105, 105), rgb(18, 18, 18));
+}
+ul a:hover{
+  background: linear-gradient(rgb(18, 18, 18), rgb(105, 105, 105));
+}
+ul a{
+  width: 100%;
+
+}
+ul a:link{
+  color: black;
+}
+
+main{
+  background: rgb(172, 177, 154);
+}
+.contenido{
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-bottom: 50px;
+  padding-right: 50px;
+  border: 2px solid black;
+  width: 30%;
+
+}
+
+footer{
+  font-size: 10px;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: rgb(76, 187, 79);
+  border-radius: 0px 0px 22px 22px;
+  border: 3px solid #000000;
+}
